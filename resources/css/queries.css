@@ -1,0 +1,219 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+    .main-nav li {
+        margin-left: 20px;
+    }
+
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+    /* change font size in percentage */
+    body {
+        font-size: 18px;
+    }
+
+    /* hide nav text on medium screen */
+    /* .main-nav .nav-text {
+        visibility: hidden;
+    } */
+
+    /* show the icon nav on medium screen*/
+    .main-nav li {
+        margin-left: 20px;
+    }
+
+    /* hide bottom border for main-nav*/
+    /* .main-nav li a:link,
+    .main-nav li a:hover,
+    .main-nav li a:active,
+    .main-nav li a:visited {
+        border: 0;
+    } */
+
+    /* change padding for each section */
+    section {
+        padding: 60px 0;
+    }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    /* remove some white space */
+    .steps-box {
+        margin-top: 10px;
+    }
+
+    /* reduce size */
+    .steps-box:last-of-type {
+        margin-top: 10px;
+    }
+
+    .works-steps {
+        margin-bottom: 40px;
+    }
+
+    .works-steps:last-of-type {
+        margin-bottom: 60px;
+    }
+
+    .app-screen {
+        width: 50%;
+    }
+
+    .icon-small {
+        width: 20px;
+        margin-right: 5px;
+    }
+
+    .city-feature {
+        font-size: 90%;
+    }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .plan-price {
+        font-size: 250%;
+    }
+
+    .contact-form {
+        /* increase the form */
+        width: 80%;
+    }
+
+
+}
+
+/* Small phone to small tablets: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+
+    /* reduce size for every elements */
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    /* no hamburger hide nav text */
+    .main-nav .nav-text {
+        display: none;
+    }
+
+    /* no hamburger */
+    .main-nav li {
+        visibility: visible;
+        margin-left: 30px;
+    }
+
+    /* no hamburger */
+    .main-nav {
+        margin-right: 30px;
+    }
+
+
+
+
+    h1 {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    /* center image */
+    .steps-box:first-of-type {
+        padding-right: 0%;
+        text-align: center;
+    }
+
+    .steps-box {
+        margin-top: 40px;
+    }
+
+    /* reduce white spacing */
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        padding: 4px;
+        margin-right: 15px;
+        font-size: 120%;
+    }
+
+    .works-step {
+        margin-bottom: 30px;
+    }
+
+    .works-step:last-of-type {
+        margin-bottom: 40px;
+    }
+
+    .btn-app img {
+        height: 48px;
+        margin-right: 6px;
+    }
+
+    .meals-showcase li {
+        width: 50%;
+    }
+}
+
+/* Small phone: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 25px 0;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .btn-app img {
+        height: 48px;
+        margin-right: 6px;
+    }
+
+    .meals-showcase li {
+        width: 100%;
+    }
+
+    .col-nav {
+        width: 33%;
+    }
+
+    .col-social {
+        width: 66%
+    }
+}

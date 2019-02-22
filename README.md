@@ -1,3 +1,5 @@
+[Click Here To View Omnifood Webpage](https://rickthoi.github.io/omnifood)
+
 # 7 steps to web design and development
 
 ## 1. Goal of the project:
